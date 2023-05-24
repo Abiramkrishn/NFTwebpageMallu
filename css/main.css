@@ -1342,13 +1342,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-logo a {
     display: block;
-    margin: 9px 0 0 0;
+    margin: 0;
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 220px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+.header-logo img {
+    height: 44px;
+    width: auto;
+    display: block;
 }
 
 
@@ -1606,10 +1612,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         height: 90px;
     }
     .header-logo {
-        left: 30px;
+        left: 20px;
+    }
+    .header-logo a {
+        width: 170px;
+    }
+    .header-logo img {
+        height: 34px;
     }
     .header-menu-toggle {
-        right: 25px;
+        right: 20px;
     }
 }
 
@@ -3249,10 +3261,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    width: 200px;
+    height: 42px;
+    background: url("../images/logo.svg") no-repeat left center;
+    background-size: contain;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
